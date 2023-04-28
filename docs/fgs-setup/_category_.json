@@ -1,0 +1,8 @@
+{
+  "label": "FGS Setup",
+  "position": 3,
+  "link": {
+    "type": "generated-index",
+    "description": "Setup your environment to use FGS."
+  }
+}
