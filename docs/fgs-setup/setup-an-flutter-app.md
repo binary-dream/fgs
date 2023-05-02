@@ -51,7 +51,7 @@ npx create-docusaurus@latest docusaurus classic;
 touch Makefile;
 ```
 
-The content of the Makefile can be found on [https://github.com/binary-dream/e_commerce_app_backbone_v1/blob/main/Makefile](https://github.com/binary-dream/e_commerce_app_backbone_v1/blob/main/Makefile).
+The content of the Makefile can be found on [https://github.com/binary-dream/e_commerce_app_backbone/blob/main/Makefile](https://github.com/binary-dream/e_commerce_app_backbone/blob/main/Makefile).
 
 ## Delete the .vscode/launch.json
 
@@ -59,9 +59,9 @@ This file will just generate confusion, because we always need to setup the fire
 
 ## Create the firebase projects and setup them
 
-* **Production**: fgs-example-v1-prod
-* **Staging**: fgs-example-v1-stg
 * **Development**: fgs-example-v1-dev
+* **Staging**: fgs-example-v1-stg
+* **Production**: fgs-example-v1-prod
 
 [https://codewithandrea.com/articles/flutter-flavors-for-firebase-apps/](https://codewithandrea.com/articles/flutter-flavors-for-firebase-apps/).
 
@@ -73,10 +73,10 @@ Next, is an example of the commands to configure the firebase with the flutterfi
 
 ```bash
 flutterfire config \
-  --project=e-comm-app-backbone-v1-dev \
-  --ios-bundle-id=tech.binarydream.e-commerce-app-backbone-v1.dev \
-  --macos-bundle-id=tech.binarydream.e-commerce-app-backbone-v1.dev \
-  --android-package-name=tech.binarydream.e_commerce_app_backbone_v1.dev \
+  --project=e-comm-app-backbone-dev \
+  --ios-bundle-id=tech.binarydream.e-commerce-app-backbone.dev \
+  --macos-bundle-id=tech.binarydream.e-commerce-app-backbone.dev \
+  --android-package-name=tech.binarydream.e_commerce_app_backbone.dev \
   --out=lib/firebase_options_development.dart
 ```
 
@@ -84,10 +84,10 @@ flutterfire config \
 
 ```bash
 flutterfire config \
-  --project=e-comm-app-backbone-v1-stg \
-  --ios-bundle-id=tech.binarydream.e-commerce-app-backbone-v1.stg \
-  --macos-bundle-id=tech.binarydream.e-commerce-app-backbone-v1.stg \
-  --android-package-name=tech.binarydream.e_commerce_app_backbone_v1.stg \
+  --project=e-comm-app-backbone-stg \
+  --ios-bundle-id=tech.binarydream.e-commerce-app-backbone.stg \
+  --macos-bundle-id=tech.binarydream.e-commerce-app-backbone.stg \
+  --android-package-name=tech.binarydream.e_commerce_app_backbone.stg \
   --out=lib/firebase_options_staging.dart
 ```
 
@@ -95,10 +95,10 @@ flutterfire config \
 
 ```bash
 flutterfire config \
-  --project=e-comm-app-backbone-v1-prod \
-  --ios-bundle-id=tech.binarydream.e-commerce-app-backbone-v1 \
-  --macos-bundle-id=tech.binarydream.e-commerce-app-backbone-v1 \
-  --android-package-name=tech.binarydream.e_commerce_app_backbone_v1 \
+  --project=e-comm-app-backbone-prod \
+  --ios-bundle-id=tech.binarydream.e-commerce-app-backbone \
+  --macos-bundle-id=tech.binarydream.e-commerce-app-backbone \
+  --android-package-name=tech.binarydream.e_commerce_app_backbone \
   --out=lib/firebase_options_production.dart
 ```
 
@@ -117,4 +117,4 @@ firebase_app_id_file.json
 
 ## Configure some files on the project
 
-Configure the main's and bootstrap.dart files based on this project: [https://github.com/binary-dream/e_commerce_app_backbone_v1](https://github.com/binary-dream/e_commerce_app_backbone_v1).
+Configure the main's and bootstrap.dart files based on this project: [https://github.com/binary-dream/e_commerce_app_backbone](https://github.com/binary-dream/e_commerce_app_backbone).
