@@ -1,5 +1,5 @@
 ---
-sidebar_position: 6
+sidebar_position: 7
 ---
 
 # Setup an Flutter App
@@ -27,6 +27,12 @@ fvm use 3.7.11;
     "editor.defaultFormatter": "Dart-Code.dart-code",
     "editor.formatOnSave": false,
     "editor.formatOnType": false,
+  },
+  "java.configuration.updateBuildConfiguration": "disabled",
+  "files.exclude": {
+    "**/*.mocks.dart": true,
+    "**/*.freezed.dart": true,
+    "**/*.g.dart": true
   },
 }
 ```
