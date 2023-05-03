@@ -4,17 +4,17 @@ sidebar_position: 6
 
 # Setup an Flutter App
 
-## Create the project (fgs_example_v1)
+## Create the project (fgs_example)
 
 ```bash
 cd ~/Projects;
-very_good create flutter_app fgs_example_v1 --org "tech.binarydream"
+very_good create flutter_app fgs_example --org "tech.binarydream"
 ```
 
 ## Setup do FVM
 
 ```
-cd fgs_example_v1;
+cd fgs_example;
 fvm use 3.7.11;
 ```
 
@@ -59,9 +59,9 @@ This file will just generate confusion, because we always need to setup the fire
 
 ## Create the firebase projects and setup them
 
-* **Development**: fgs-example-v1-dev
-* **Staging**: fgs-example-v1-stg
-* **Production**: fgs-example-v1-prod
+* **Development**: fgs-example-dev
+* **Staging**: fgs-example-stg
+* **Production**: fgs-example-prod
 
 [https://codewithandrea.com/articles/flutter-flavors-for-firebase-apps/](https://codewithandrea.com/articles/flutter-flavors-for-firebase-apps/).
 
