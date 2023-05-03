@@ -59,6 +59,10 @@ touch Makefile;
 
 The content of the Makefile can be found on [https://github.com/binary-dream/e_commerce_app_backbone/blob/main/Makefile](https://github.com/binary-dream/e_commerce_app_backbone/blob/main/Makefile).
 
+## Create the scripts directory with his files
+
+[https://github.com/binary-dream/e_commerce_app_backbone/tree/main/scripts](https://github.com/binary-dream/e_commerce_app_backbone/tree/main/scripts)
+
 ## Delete the .vscode/launch.json
 
 This file will just generate confusion, because we always need to setup the firebase files before running the app. Instead of using the vscode launcher, just use the commands in the Makefile.
