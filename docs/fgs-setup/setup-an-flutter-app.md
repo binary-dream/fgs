@@ -259,4 +259,4 @@ firebase_app_id_file.json
 
 ## Configure some files on the project
 
-Configure the main's and bootstrap.dart files based on this project: [https://github.com/binary-dream/e_commerce_app_backbone](https://github.com/binary-dream/e_commerce_app_backbone).
+Configure the main's, di_container and bootstrap.dart files based on this project: [https://github.com/binary-dream/e_commerce_app_backbone](https://github.com/binary-dream/e_commerce_app_backbone).
